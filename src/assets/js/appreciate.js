@@ -4,6 +4,6 @@
     $("#wepay-img").attr("src",appreciate.qcode.wepay);
   }
 
-  $("#appreciate").click(function(){
+  $("div#appreciate[class='reward-button']").click(function(){
     $("span.money-code").toggle("quick")
   })
